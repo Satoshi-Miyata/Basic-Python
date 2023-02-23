@@ -1,5 +1,5 @@
+import math
 r = float(input())
-pi = 3.141592653589
-area  = format(r*r*pi,'.6f')
-circum = format(2*pi*r,'.6f')
+area  = format(r*r*math.pi,'.6f')
+circum = format(2*math.pi*r,'.6f')
 print(area,circum)
